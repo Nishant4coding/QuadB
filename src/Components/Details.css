@@ -1,0 +1,97 @@
+    /* Card container styles */
+    .container{
+      display: flex;
+
+    }
+
+        .card {
+          display: flex;
+          flex-direction: column;
+          /* justify-content: center; */
+          /* align-items: center; */
+          width: 100%;
+          height: auto;
+          background-color: #fff;
+          border-radius: 10px;
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+          overflow: hidden;
+        }
+        .column {
+          float: left;
+          width: 50%;
+        }
+        
+        /* Clear floats after the columns */
+        .row:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+      
+      /* Card image styles */
+      img {
+        width: 50%;
+        /* height: 10%; */
+        /* object-fit: cover; */
+      }
+      
+      /* Card content styles */
+      .card-content {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: justify; */
+        /* align-items: center; */
+        padding: 20px;
+        border: 2px solid yellow;
+        box-shadow: #ffa500;
+      }
+      
+      /* Card title styles */
+      .card-title {
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      
+      /* Card text styles */
+      .card-text {
+        font-size: 20px;
+        margin-bottom: 20px;
+        text-align: justify;
+      }
+      
+      /* Card button styles */
+      .card-button {
+        background-color: #ffa500;
+        width: 100%;
+        color: #fff;
+        border: none;
+        border-radius: 20px;
+        padding: 10px 20px;
+        font-size: 18px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+      }
+      
+      /* Card button hover styles */
+      .card-button:hover {
+        background-color: #ff8c00;
+      }
+      .book-button {
+        background-color: #ffa500;
+        width: 10%;
+        color: #fff;
+        border: none;
+        border-radius: 20px;
+        padding: 10px 20px;
+        font-size: 18px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+      }
+      
+      /* Card button hover styles */
+      .book-button:hover {
+        background-color: #ff8c00;
+      }
